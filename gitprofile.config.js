@@ -2,8 +2,8 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'aredrayy', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,104 +11,101 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
+    linkedin: 'stefan-tasnadi',
+    twitter: 'aredray',
+    youtube: 'aredray', // example: 'pewdiepie'
+    /*
     behance: '',
     medium: 'arifszn',
     dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    */
+    website: 'https://bit.ly/aredray',
+    phone: '+32475715926',
+    email: 'stefytasnadi@yahoo.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1qRhU4ttO1u1_4LsYDQ5g2l1WLmQ6j5tw/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'HTML, CSS, JS, PHP',
+    'Icons8 Lunacy',
+    'Prototyping',
+    'Mockups',
+    'Usability Testing',
+    'C#',
+    'Python',
+    'User Research',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Adobe Creative Suite',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'ECSEL JU',
+      position: 'Software Developper',
+      from: 'June 2018',
+      to: 'July 2018',
+      companyLink: 'https://www.kdt-ju.europa.eu/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'LChocolat',
+      position: 'Developer, Designer',
+      from: '2018',
+      to: 'Current',
+      companyLink: 'http://lchocolat.com/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Google UX Design',
+      body: 'Provided Online By Coursera',
+      year: 'June 2023',
+      link: 'https://drive.google.com/file/d/1kid8qAcuFtmJRz1GOBLggwQ-pjTU1Nhg/view?usp=sharing'
     },
-  ], */
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'European School of Brussels IV, Brussels',
+      degree: 'High School',
+      from: '2013',
+      to: '2020',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'UCLouvain, Louvain-La-Neuve',
+      degree: 'College',
+      from: '2020',
+      to: '2022',
     },
+    {
+      institution: 'EFP, Brussels',
+      degree: 'Apprenticeship',
+      from: '2023',
+      to: 'Current',
+    }
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Mobile Apps Designs',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+        'Designed multiple common mobile apps, some of the types are: Music, Video, Health & More',
+      imageUrl: 'https://inventionland.com/wp/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps-1.jpg',
       link: 'https://example.com',
     },
     {
-      title: 'Project Name',
+      title: 'Desktop Apps Designs',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+        'Mainly created software models for Windows, some examples are: Document Viewers/Editors, Task Management, Fitness & More',
+      imageUrl: 'https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-2/90/004_112_windows_app_application_window-512.png',
       link: 'https://example.com',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    username: 'aredray', // to hide blog section, keep it empty
+    limit: 5, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -119,11 +116,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'black',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -179,11 +176,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  /*footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and ❤️`,*/
 };
 
 export default config;

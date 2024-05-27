@@ -29,7 +29,7 @@ const config = {
   },
   skills: [
     'HTML, CSS, JS, PHP',
-    'Icons8 Lunacy',
+    'Figma',
     'Prototyping',
     'Mockups',
     'Usability Testing',
@@ -38,6 +38,7 @@ const config = {
     'User Research',
     'Git',
     'Adobe Creative Suite',
+    'UX Laws'
   ],
   experiences: [
     {
@@ -74,7 +75,7 @@ const config = {
       institution: 'UCLouvain, Louvain-La-Neuve',
       degree: 'College',
       from: '2020',
-      to: '2022',
+      to: '2023',
     },
     {
       institution: 'EFP, Brussels',
@@ -87,18 +88,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Mobile Apps Designs',
+      title: 'Kinepolis App Remake',
       description:
-        'Designed multiple common mobile apps, some of the types are: Music, Video, Health & More',
-      imageUrl: 'https://inventionland.com/wp/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps-1.jpg',
-      link: 'https://example.com',
+        'An amazing overhaul of the current Kinepolis Cinema mobile app made in Figma',
+      imageUrl: 'https://camo.githubusercontent.com/17fe6fa78919a8ea29c0ac57a1abd9b8270a058947a2c58badc1988d03665f2d/68747470733a2f2f692e6962622e636f2f63366e76394b792f4d61696e2d506167652e706e67',
+      link: 'https://github.com/aredrayy/kinepolis-UX-UI',
     },
     {
-      title: 'Desktop Apps Designs',
+      title: 'Mobile Music Streaming App',
       description:
-        'Mainly created software models for Windows, some examples are: Document Viewers/Editors, Task Management, Fitness & More',
-      imageUrl: 'https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-2/90/004_112_windows_app_application_window-512.png',
-      link: 'https://example.com',
+        '1st UX/UI Design created in Lunacy on Linux. Combined several unforgetable mainstream features into a fully fledged minimalistic music streaming client.',
+      imageUrl: 'https://camo.githubusercontent.com/9dbbda8968b161d8150f48415bc9cedebcc06f132a5f458b0c15c779792f4098/68747470733a2f2f692e6962622e636f2f686757327a58462f692d50686f6e652d31342d50726f2e706e67',
+      link: 'https://github.com/aredrayy/Music-Streaming-App-Design',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)

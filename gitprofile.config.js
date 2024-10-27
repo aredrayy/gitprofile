@@ -95,21 +95,21 @@ const config = {
     {
       title: 'LChocolat',
       description:
-        'Chocolate store website, made with ❤️. Static website showcasing: products & shop previews as well as an online shop',
+        'Chocolate store website, made with ❤️ Static website showcasing: products & shop previews as well as an online shop',
       imageUrl: 'https://lchocolat.com/img/favicon.png',
       link: 'https://lchocolat.com/',
     },
     {
       title: 'aredray',
       description:
-        'Cool simple static website 🌐, showcasing socials & videos for a small YouTube channel: aredray',
+        'Cool simple static website 🌐 showcasing socials & videos for a small YouTube channel: aredray',
       imageUrl: 'https://i.ibb.co/8gxkxhP/round-logo.png',
       link: 'https://bit.ly/aredray',
     },
     {
       title: 'vystex',
       description:
-        'NEW Forum community, for music producers 🎹, with the purpose of showcasing creation related resources from anyone',
+        'NEW Forum community, for music producers 🎹 with the purpose of showcasing creation related resources from anyone',
       imageUrl: 'https://vystex.com/uploads/monthly_2024_06/Logo.png.09dda463e3d15d66713521a21164b860.png',
       link: 'https://vystex.com/',
     },

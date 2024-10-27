@@ -20,7 +20,6 @@ const config = {
     dev: 'arifszn',
     */
     website: 'https://bit.ly/aredray',
-    phone: '+32475715926',
     email: 'stefytasnadi@yahoo.com',
   },
   resume: {
@@ -73,7 +72,7 @@ const config = {
     },
     {
       institution: 'UCLouvain, Louvain-La-Neuve',
-      degree: 'College',
+      degree: 'Bachelor',
       from: '2020',
       to: '2023',
     },
@@ -82,24 +81,37 @@ const config = {
       degree: 'Apprenticeship',
       from: '2023',
       to: 'Current',
+    },
+    {
+      institution: 'UBI, Brussels',
+      degree: 'Bachelor',
+      from: '2024',
+      to: 'Current',
     }
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Kinepolis App Remake',
+      title: 'LChocolat',
       description:
-        'An amazing overhaul of the current Kinepolis Cinema mobile app made in Figma',
-      imageUrl: 'https://camo.githubusercontent.com/17fe6fa78919a8ea29c0ac57a1abd9b8270a058947a2c58badc1988d03665f2d/68747470733a2f2f692e6962622e636f2f63366e76394b792f4d61696e2d506167652e706e67',
-      link: 'https://github.com/aredrayy/kinepolis-UX-UI',
+        'Chocolate store website, made with ❤️. Static website showcasing: products & shop previews as well as an online shop',
+      imageUrl: 'https://lchocolat.com/img/favicon.png',
+      link: 'https://lchocolat.com/',
     },
     {
-      title: 'Mobile Music Streaming App',
+      title: 'aredray',
       description:
-        '1st UX/UI Design created in Lunacy on Linux. Combined several unforgetable mainstream features into a fully fledged minimalistic music streaming client.',
-      imageUrl: 'https://camo.githubusercontent.com/9dbbda8968b161d8150f48415bc9cedebcc06f132a5f458b0c15c779792f4098/68747470733a2f2f692e6962622e636f2f686757327a58462f692d50686f6e652d31342d50726f2e706e67',
-      link: 'https://github.com/aredrayy/Music-Streaming-App-Design',
+        'Cool simple static website 🌐, showcasing socials & videos for a small YouTube channel: aredray',
+      imageUrl: 'https://i.ibb.co/8gxkxhP/round-logo.png',
+      link: 'https://bit.ly/aredray',
+    },
+    {
+      title: 'vystex',
+      description:
+        'NEW Forum community, for music producers 🎹, with the purpose of showcasing creation related resources from anyone',
+      imageUrl: 'https://vystex.com/uploads/monthly_2024_06/Logo.png.09dda463e3d15d66713521a21164b860.png',
+      link: 'https://vystex.com/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)

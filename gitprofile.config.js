@@ -24,7 +24,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1qRhU4ttO1u1_4LsYDQ5g2l1WLmQ6j5tw/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/13JSxtsaotthXuejXnFMu7LJi3P8l0wGx/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'HTML, CSS, JS, PHP',
